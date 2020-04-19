@@ -1,0 +1,98 @@
+body{
+  background-color: #ff6363;
+  background-image: url("../images/bg-intro-mobile.png");
+  color:#fff0f5;
+  margin:0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1{
+  padding: 80px 20px 0 20px;
+}
+
+.intro{
+  font-size: 1.2rem;
+  padding: 0 35px;
+}
+
+.purple-card{
+  background-color: #543864;
+  border-radius: 10px;
+  box-shadow: 2px  7px 3px rgb(130, 129, 128, 0.54);
+  line-height: 1.7;
+  margin: 50px 35px 30px 35px;
+  padding: 15px 75px;
+}
+
+span{
+  font-weight: bold;;
+}
+form{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px  7px 3px rgb(130, 129, 128, 0.54);
+  margin: 10px 35px 25px 35px;
+  padding: 10px  40px 10px 30px;
+}
+
+input{
+  border: solid 1px rgb(222, 222, 222);
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top:10px;
+  padding: 20px 0 20px 10px;
+  width: 100%;
+}
+
+.btn{
+  background-color: rgb(81, 173, 57);
+  border: 0;
+  box-shadow: 2px  5px 3px rgb(94, 168, 58);
+  color:#fff0f5;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 105%;
+}
+
+.agreement{
+  color: #999999;
+  font-size: 0.7rem;
+  padding: 2px 18px;
+
+}
+#tc{
+  color: #ff6363;
+  font-weight: bold;
+}
+
+@media (min-width: 50rem) {
+  body{
+    background-image: url("../images/bg-intro-mobile.png");
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
+  h1, .intro{
+    padding:0;
+  }
+  h1{
+    font-size: 3rem;
+    line-height: 1.2;
+
+  }
+  .left-container{
+    grid-column: 1/2;
+    height:60%;
+    padding: 160px 0 0 100px;
+    text-align: left;
+
+  }
+  .right-container{
+    grid-column: 2/3;
+    margin: 10px 50px;
+  }
+}
